@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libc3pOSEM.so -o libc3pOSEM.so CMakeFiles/c3pOSEM.dir/OSEM.cpp.o 

@@ -1,0 +1,3 @@
+/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir
