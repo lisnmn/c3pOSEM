@@ -3,4 +3,6 @@ project(c3pOSEM)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(c3pOSEM SHARED abstract_plugin.h plugin.h OSEM.cpp OSEM.h)
+file(GLOB OSEM_SRC "*.h" "*.cpp")
+
+add_library(c3pOSEM SHARED ${OSEM_SRC})

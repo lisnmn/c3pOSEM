@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/UImage.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/UImage.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/UOneLor.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/UPETScanner.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/URayTracing.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/UReconPETOSEMAlgor.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/UTypeDef.h" charset="GBK" />
+    <file url="mock:///UOneLor.h" charset="GBK" />
+    <file url="mock:///UPETScanner.h" charset="GBK" />
+    <file url="mock:///URayTracing.h" charset="GBK" />
+    <file url="mock:///UTypeDef.h" charset="GBK" />
+  </component>
+</project>

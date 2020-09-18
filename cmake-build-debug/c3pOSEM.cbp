@@ -88,7 +88,76 @@
 		<Unit filename="/home/svf/CLionProjects/c3pOSEM/OSEM.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UAcquireDef.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UCoin2Mich.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UCoin2Mich.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UFileReadSave.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UFileReadSave.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UImage.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UImage.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UOneLor.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UOneLor.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UPETScanner.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UPETScanner.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UProgressNotify.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UProgressNotify.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/URayTracing.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/URayTracing.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UReconPETFunction.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UReconPETFunction.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UReconPETOSEMAlgor.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UReconPETOSEMAlgor.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UTypeDef.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UVolume.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
 		<Unit filename="/home/svf/CLionProjects/c3pOSEM/abstract_plugin.h">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/inifile.cpp">
+			<Option target="c3pOSEM"/>
+		</Unit>
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/inifile.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
 		<Unit filename="/home/svf/CLionProjects/c3pOSEM/plugin.h">

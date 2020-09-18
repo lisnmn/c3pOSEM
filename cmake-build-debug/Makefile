@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/124/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/125/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/124/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/125/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/svf/CLionProjects/c3pOSEM/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/124/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/125/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/124/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/125/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -170,6 +170,276 @@ OSEM.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/OSEM.cpp.s
 .PHONY : OSEM.cpp.s
 
+UCoin2Mich.o: UCoin2Mich.cpp.o
+
+.PHONY : UCoin2Mich.o
+
+# target to build an object file
+UCoin2Mich.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UCoin2Mich.cpp.o
+.PHONY : UCoin2Mich.cpp.o
+
+UCoin2Mich.i: UCoin2Mich.cpp.i
+
+.PHONY : UCoin2Mich.i
+
+# target to preprocess a source file
+UCoin2Mich.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UCoin2Mich.cpp.i
+.PHONY : UCoin2Mich.cpp.i
+
+UCoin2Mich.s: UCoin2Mich.cpp.s
+
+.PHONY : UCoin2Mich.s
+
+# target to generate assembly for a file
+UCoin2Mich.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UCoin2Mich.cpp.s
+.PHONY : UCoin2Mich.cpp.s
+
+UFileReadSave.o: UFileReadSave.cpp.o
+
+.PHONY : UFileReadSave.o
+
+# target to build an object file
+UFileReadSave.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UFileReadSave.cpp.o
+.PHONY : UFileReadSave.cpp.o
+
+UFileReadSave.i: UFileReadSave.cpp.i
+
+.PHONY : UFileReadSave.i
+
+# target to preprocess a source file
+UFileReadSave.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UFileReadSave.cpp.i
+.PHONY : UFileReadSave.cpp.i
+
+UFileReadSave.s: UFileReadSave.cpp.s
+
+.PHONY : UFileReadSave.s
+
+# target to generate assembly for a file
+UFileReadSave.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UFileReadSave.cpp.s
+.PHONY : UFileReadSave.cpp.s
+
+UImage.o: UImage.cpp.o
+
+.PHONY : UImage.o
+
+# target to build an object file
+UImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UImage.cpp.o
+.PHONY : UImage.cpp.o
+
+UImage.i: UImage.cpp.i
+
+.PHONY : UImage.i
+
+# target to preprocess a source file
+UImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UImage.cpp.i
+.PHONY : UImage.cpp.i
+
+UImage.s: UImage.cpp.s
+
+.PHONY : UImage.s
+
+# target to generate assembly for a file
+UImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UImage.cpp.s
+.PHONY : UImage.cpp.s
+
+UOneLor.o: UOneLor.cpp.o
+
+.PHONY : UOneLor.o
+
+# target to build an object file
+UOneLor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UOneLor.cpp.o
+.PHONY : UOneLor.cpp.o
+
+UOneLor.i: UOneLor.cpp.i
+
+.PHONY : UOneLor.i
+
+# target to preprocess a source file
+UOneLor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UOneLor.cpp.i
+.PHONY : UOneLor.cpp.i
+
+UOneLor.s: UOneLor.cpp.s
+
+.PHONY : UOneLor.s
+
+# target to generate assembly for a file
+UOneLor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UOneLor.cpp.s
+.PHONY : UOneLor.cpp.s
+
+UPETScanner.o: UPETScanner.cpp.o
+
+.PHONY : UPETScanner.o
+
+# target to build an object file
+UPETScanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UPETScanner.cpp.o
+.PHONY : UPETScanner.cpp.o
+
+UPETScanner.i: UPETScanner.cpp.i
+
+.PHONY : UPETScanner.i
+
+# target to preprocess a source file
+UPETScanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UPETScanner.cpp.i
+.PHONY : UPETScanner.cpp.i
+
+UPETScanner.s: UPETScanner.cpp.s
+
+.PHONY : UPETScanner.s
+
+# target to generate assembly for a file
+UPETScanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UPETScanner.cpp.s
+.PHONY : UPETScanner.cpp.s
+
+UProgressNotify.o: UProgressNotify.cpp.o
+
+.PHONY : UProgressNotify.o
+
+# target to build an object file
+UProgressNotify.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UProgressNotify.cpp.o
+.PHONY : UProgressNotify.cpp.o
+
+UProgressNotify.i: UProgressNotify.cpp.i
+
+.PHONY : UProgressNotify.i
+
+# target to preprocess a source file
+UProgressNotify.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UProgressNotify.cpp.i
+.PHONY : UProgressNotify.cpp.i
+
+UProgressNotify.s: UProgressNotify.cpp.s
+
+.PHONY : UProgressNotify.s
+
+# target to generate assembly for a file
+UProgressNotify.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UProgressNotify.cpp.s
+.PHONY : UProgressNotify.cpp.s
+
+URayTracing.o: URayTracing.cpp.o
+
+.PHONY : URayTracing.o
+
+# target to build an object file
+URayTracing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/URayTracing.cpp.o
+.PHONY : URayTracing.cpp.o
+
+URayTracing.i: URayTracing.cpp.i
+
+.PHONY : URayTracing.i
+
+# target to preprocess a source file
+URayTracing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/URayTracing.cpp.i
+.PHONY : URayTracing.cpp.i
+
+URayTracing.s: URayTracing.cpp.s
+
+.PHONY : URayTracing.s
+
+# target to generate assembly for a file
+URayTracing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/URayTracing.cpp.s
+.PHONY : URayTracing.cpp.s
+
+UReconPETFunction.o: UReconPETFunction.cpp.o
+
+.PHONY : UReconPETFunction.o
+
+# target to build an object file
+UReconPETFunction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UReconPETFunction.cpp.o
+.PHONY : UReconPETFunction.cpp.o
+
+UReconPETFunction.i: UReconPETFunction.cpp.i
+
+.PHONY : UReconPETFunction.i
+
+# target to preprocess a source file
+UReconPETFunction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UReconPETFunction.cpp.i
+.PHONY : UReconPETFunction.cpp.i
+
+UReconPETFunction.s: UReconPETFunction.cpp.s
+
+.PHONY : UReconPETFunction.s
+
+# target to generate assembly for a file
+UReconPETFunction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UReconPETFunction.cpp.s
+.PHONY : UReconPETFunction.cpp.s
+
+UReconPETOSEMAlgor.o: UReconPETOSEMAlgor.cpp.o
+
+.PHONY : UReconPETOSEMAlgor.o
+
+# target to build an object file
+UReconPETOSEMAlgor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UReconPETOSEMAlgor.cpp.o
+.PHONY : UReconPETOSEMAlgor.cpp.o
+
+UReconPETOSEMAlgor.i: UReconPETOSEMAlgor.cpp.i
+
+.PHONY : UReconPETOSEMAlgor.i
+
+# target to preprocess a source file
+UReconPETOSEMAlgor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UReconPETOSEMAlgor.cpp.i
+.PHONY : UReconPETOSEMAlgor.cpp.i
+
+UReconPETOSEMAlgor.s: UReconPETOSEMAlgor.cpp.s
+
+.PHONY : UReconPETOSEMAlgor.s
+
+# target to generate assembly for a file
+UReconPETOSEMAlgor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/UReconPETOSEMAlgor.cpp.s
+.PHONY : UReconPETOSEMAlgor.cpp.s
+
+inifile.o: inifile.cpp.o
+
+.PHONY : inifile.o
+
+# target to build an object file
+inifile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/inifile.cpp.o
+.PHONY : inifile.cpp.o
+
+inifile.i: inifile.cpp.i
+
+.PHONY : inifile.i
+
+# target to preprocess a source file
+inifile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/inifile.cpp.i
+.PHONY : inifile.cpp.i
+
+inifile.s: inifile.cpp.s
+
+.PHONY : inifile.s
+
+# target to generate assembly for a file
+inifile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c3pOSEM.dir/build.make CMakeFiles/c3pOSEM.dir/inifile.cpp.s
+.PHONY : inifile.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +452,36 @@ help:
 	@echo "... OSEM.o"
 	@echo "... OSEM.i"
 	@echo "... OSEM.s"
+	@echo "... UCoin2Mich.o"
+	@echo "... UCoin2Mich.i"
+	@echo "... UCoin2Mich.s"
+	@echo "... UFileReadSave.o"
+	@echo "... UFileReadSave.i"
+	@echo "... UFileReadSave.s"
+	@echo "... UImage.o"
+	@echo "... UImage.i"
+	@echo "... UImage.s"
+	@echo "... UOneLor.o"
+	@echo "... UOneLor.i"
+	@echo "... UOneLor.s"
+	@echo "... UPETScanner.o"
+	@echo "... UPETScanner.i"
+	@echo "... UPETScanner.s"
+	@echo "... UProgressNotify.o"
+	@echo "... UProgressNotify.i"
+	@echo "... UProgressNotify.s"
+	@echo "... URayTracing.o"
+	@echo "... URayTracing.i"
+	@echo "... URayTracing.s"
+	@echo "... UReconPETFunction.o"
+	@echo "... UReconPETFunction.i"
+	@echo "... UReconPETFunction.s"
+	@echo "... UReconPETOSEMAlgor.o"
+	@echo "... UReconPETOSEMAlgor.i"
+	@echo "... UReconPETOSEMAlgor.s"
+	@echo "... inifile.o"
+	@echo "... inifile.i"
+	@echo "... inifile.s"
 .PHONY : help
 
 
