@@ -8,160 +8,162 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/svf/CLionProject/c3pOSEM/cmake-build-debug"/>
+				<Option working_dir="/home/svf/CLionProjects/c3pOSEM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/svf/CLionProject/c3pOSEM/cmake-build-debug"/>
+				<Option working_dir="/home/svf/CLionProjects/c3pOSEM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/svf/CLionProject/c3pOSEM/cmake-build-debug"/>
+				<Option working_dir="/home/svf/CLionProjects/c3pOSEM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c3pOSEM">
-				<Option output="/home/svf/CLionProject/c3pOSEM/cmake-build-debug/libc3pOSEM.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/svf/CLionProject/c3pOSEM/cmake-build-debug"/>
+				<Option output="/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/libc3pOSEM.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svf/CLionProjects/c3pOSEM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 c3pOSEM"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 c3pOSEM"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c3pOSEM/fast">
-				<Option output="/home/svf/CLionProject/c3pOSEM/cmake-build-debug/libc3pOSEM.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/svf/CLionProject/c3pOSEM/cmake-build-debug"/>
+				<Option output="/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/libc3pOSEM.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svf/CLionProjects/c3pOSEM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 c3pOSEM/fast"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/svf/CLionProject/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 c3pOSEM/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/OSEM.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/OSEM.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/OSEM.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/OSEM.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UAcquireDef.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UAcquireDef.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UCoin2Mich.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UCoin2Mich.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UCoin2Mich.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UCoin2Mich.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UFileReadSave.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UFileReadSave.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UFileReadSave.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UFileReadSave.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UImage.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UImage.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UImage.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UImage.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UOneLor.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UOneLor.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UOneLor.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UOneLor.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UPETScanner.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UPETScanner.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UPETScanner.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UPETScanner.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UProgressNotify.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UProgressNotify.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UProgressNotify.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UProgressNotify.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/URayTracing.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/URayTracing.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/URayTracing.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/URayTracing.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UReconPETFunction.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UReconPETFunction.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UReconPETFunction.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UReconPETFunction.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UReconPETOSEMAlgor.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UReconPETOSEMAlgor.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UReconPETOSEMAlgor.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UReconPETOSEMAlgor.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UTypeDef.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UTypeDef.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/UVolume.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/UVolume.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/abstract_plugin.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/abstract_plugin.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/inifile.cpp">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/inifile.cpp">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/inifile.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/inifile.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/plugin.h">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/plugin.h">
 			<Option target="c3pOSEM"/>
 		</Unit>
-		<Unit filename="/home/svf/CLionProject/c3pOSEM/CMakeLists.txt">
+		<Unit filename="/home/svf/CLionProjects/c3pOSEM/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
