@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/svf/CLionProject/c3pOSEM/OSEM.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/OSEM.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/UCoin2Mich.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UCoin2Mich.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/UFileReadSave.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UFileReadSave.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/UImage.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UImage.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/UOneLor.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UOneLor.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/UPETScanner.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UPETScanner.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/UProgressNotify.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UProgressNotify.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/URayTracing.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/URayTracing.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/UReconPETFunction.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UReconPETFunction.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/UReconPETOSEMAlgor.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UReconPETOSEMAlgor.cpp.o"
-  "/home/svf/CLionProject/c3pOSEM/inifile.cpp" "/home/svf/CLionProject/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/inifile.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/OSEM.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/OSEM.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/UCoin2Mich.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UCoin2Mich.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/UFileReadSave.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UFileReadSave.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/UImage.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UImage.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/UOneLor.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UOneLor.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/UPETScanner.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UPETScanner.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/UProgressNotify.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UProgressNotify.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/URayTracing.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/URayTracing.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/UReconPETFunction.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UReconPETFunction.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/UReconPETOSEMAlgor.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/UReconPETOSEMAlgor.cpp.o"
+  "/home/svf/CLionProjects/c3pOSEM/inifile.cpp" "/home/svf/CLionProjects/c3pOSEM/cmake-build-debug/CMakeFiles/c3pOSEM.dir/inifile.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
