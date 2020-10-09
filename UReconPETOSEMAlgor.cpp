@@ -296,9 +296,6 @@ bool UReconPETOSEMRayTracingAlgor::DoRecon()
 	delete[]michAttn;
 	delete[]michRand;
 	delete[]cryPosCenterArray;
-
-    m_pNotify->finish();
-
 	return true;
 }
 /**********************************************************

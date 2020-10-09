@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/svf/CLionProjects/c3pOSEM/OSEM.cpp
+/home/svf/CLionProject/c3pOSEM/OSEM.cpp
 OSEM.h
-/home/svf/CLionProjects/c3pOSEM/OSEM.h
+/home/svf/CLionProject/c3pOSEM/OSEM.h
 iostream
 -
 
-/home/svf/CLionProjects/c3pOSEM/OSEM.h
+/home/svf/CLionProject/c3pOSEM/OSEM.h
 thread
 -
 memory
 -
 plugin.h
-/home/svf/CLionProjects/c3pOSEM/plugin.h
+/home/svf/CLionProject/c3pOSEM/plugin.h
 inifile.h
-/home/svf/CLionProjects/c3pOSEM/inifile.h
+/home/svf/CLionProject/c3pOSEM/inifile.h
 UReconPETOSEMAlgor.h
-/home/svf/CLionProjects/c3pOSEM/UReconPETOSEMAlgor.h
+/home/svf/CLionProject/c3pOSEM/UReconPETOSEMAlgor.h
 UProgressNotify.h
-/home/svf/CLionProjects/c3pOSEM/UProgressNotify.h
+/home/svf/CLionProject/c3pOSEM/UProgressNotify.h
 UPETScanner.h
-/home/svf/CLionProjects/c3pOSEM/UPETScanner.h
+/home/svf/CLionProject/c3pOSEM/UPETScanner.h
 
-/home/svf/CLionProjects/c3pOSEM/UPETScanner.h
+/home/svf/CLionProject/c3pOSEM/UPETScanner.h
 UVolume.h
-/home/svf/CLionProjects/c3pOSEM/UVolume.h
+/home/svf/CLionProject/c3pOSEM/UVolume.h
 iostream
 -
 stdio.h
@@ -38,33 +38,19 @@ stdio.h
 string.h
 -
 
-/home/svf/CLionProjects/c3pOSEM/UProgressNotify.h
+/home/svf/CLionProject/c3pOSEM/UProgressNotify.h
 
-/home/svf/CLionProjects/c3pOSEM/UReconPETOSEMAlgor.h
+/home/svf/CLionProject/c3pOSEM/UReconPETOSEMAlgor.h
 string
 -
 
-/home/svf/CLionProjects/c3pOSEM/UVolume.h
+/home/svf/CLionProject/c3pOSEM/UVolume.h
 iostream
 -
 
-/home/svf/CLionProjects/c3pOSEM/abstract_plugin.h
+/home/svf/CLionProject/c3pOSEM/abstract_plugin.h
 
-/home/svf/CLionProjects/c3pOSEM/inifile.cpp
-stdlib.h
--
-stdio.h
--
-ctype.h
--
-iostream
--
-fstream
--
-inifile.h
-/home/svf/CLionProjects/c3pOSEM/inifile.h
-
-/home/svf/CLionProjects/c3pOSEM/inifile.h
+/home/svf/CLionProject/c3pOSEM/inifile.h
 vector
 -
 algorithm
@@ -74,7 +60,7 @@ string
 string.h
 -
 
-/home/svf/CLionProjects/c3pOSEM/plugin.h
+/home/svf/CLionProject/c3pOSEM/plugin.h
 abstract_plugin.h
-/home/svf/CLionProjects/c3pOSEM/abstract_plugin.h
+/home/svf/CLionProject/c3pOSEM/abstract_plugin.h
 

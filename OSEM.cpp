@@ -44,15 +44,18 @@ bool OSEM::start(const char* path) {
     // 2.Run algorithm IN THREAD.
     m_pThreadOSEM = std::make_shared<std::thread>(std::thread([this]{
         this->mOSEM.Initial(&this->mOSEMPara, &this->mNotify);
-        this->mOSEM.DoRecon();
+        if(this->mOSEM.DoRecon()) {
+            std::cout << "Reconstruct finished." << std::endl;
+            mNotify.finish();
+        }
     }));
     m_pThreadOSEM->detach();
     return true;
 }
 
 bool OSEM::stop() {
-    m_pThreadOSEM.~shared_ptr();
-    return true;
+    std::cout << "You cannot call stop in this plugin due to supporting lack." << std::endl;
+    return false;
 }
 
 double OSEM::progress() {
