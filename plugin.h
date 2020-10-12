@@ -17,10 +17,10 @@ struct Plugin {
 
 #define PLUGIN(classType, pluginName, pluginVersion) \
     extern "C" {                                     \
-        AbstractPlugin* createPlugin() {             \
+        __attribute__ ((visibility ("default"))) AbstractPlugin* createPlugin() {             \
             return new classType();                  \
         }                                            \
-        Plugin exports = {                           \
+        __attribute__ ((visibility ("default"))) Plugin exports = {                           \
             pluginName,                              \
             pluginVersion,                           \
             createPlugin,                            \

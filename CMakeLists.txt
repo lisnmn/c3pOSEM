@@ -3,6 +3,8 @@ project(c3pOSEM)
 
 set(CMAKE_CXX_STANDARD 14)
 
+ADD_COMPILE_OPTIONS(-Wl,-Bsymbolic -fvisibility=hidden)
+
 FIND_PACKAGE(OpenMP REQUIRED)
 if(OPENMP_FOUND)
     message("OPENMP FOUND")
